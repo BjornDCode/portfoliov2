@@ -9,3 +9,5 @@ mix.webpackConfig({
        new LiveReloadPlugin()
    ]
 });
+
+mix.copyDirectory('resources/assets/img', 'public/img');
