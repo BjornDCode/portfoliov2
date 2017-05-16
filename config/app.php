@@ -14,6 +14,9 @@ return [
 
     'name' => env('APP_NAME', 'Bjørn Lindholm'),
 
+    /* Custom Configs */
+    'title' => env('APP_TITLE', 'Web Design & Developer'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
