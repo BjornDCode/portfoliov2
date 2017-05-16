@@ -1,8 +1,10 @@
 <section class="hero">
 
-    <div class="logo">
-        <h1>{{ config('app.name', 'Bjørn Lindholm') }}</h1>
-        <span>{{ config('app.title', 'Web Designer & Developer') }}</span>
+    <div class="logo-container">
+        <div class="logo">
+            <h1>{{ config('app.name', 'Bjørn Lindholm') }}</h1>
+        </div>
+        <span class="tagline">{{ config('app.title', 'Web Designer & Developer') }}</span>
     </div>
 
     <div class="continue">
