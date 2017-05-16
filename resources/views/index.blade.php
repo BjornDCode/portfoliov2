@@ -8,6 +8,12 @@
 
     </head>
     <body>
-        <h1>{{ config('app.name', 'Bjørn Lindholm') }}</h1>
+
+        @include('sections.navigation')
+
+        @include('sections.hero')
+
+
+
     </body>
 </html>
