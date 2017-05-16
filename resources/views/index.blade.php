@@ -13,11 +13,13 @@
     </head>
     <body>
 
-        @include('sections.navigation')
+        {{-- @include('sections.navigation') --}}
 
         @include('sections.hero')
 
 
+
+        <script src="{{ asset('js/app.js') }}"></script>
 
     </body>
 </html>
