@@ -1,1 +1,3 @@
-console.log('JS is working');
+window.$ = window.jQuery = require('jQuery')
+
+require('./components/navigation')
