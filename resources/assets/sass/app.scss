@@ -2,6 +2,9 @@
 @import "vendor/normalize";
 
 // Utils
-@import "utils/mixins";
 @import "utils/variables";
+@import "utils/mixins";
 @import "utils/base";
+
+// Sections
+@import "sections/hero";
