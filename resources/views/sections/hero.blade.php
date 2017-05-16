@@ -1,4 +1,4 @@
-<section>
+<section class="hero">
 
     <div class="logo">
         <h1>{{ config('app.name', 'Bjørn Lindholm') }}</h1>
