@@ -2,6 +2,7 @@
 
     <div class="logo-container">
         <div class="logo">
+            <span class="border"></span>
             <h1>{{ config('app.name', 'Bjørn Lindholm') }}</h1>
         </div>
         <span class="tagline">{{ config('app.title', 'Web Designer & Developer') }}</span>
