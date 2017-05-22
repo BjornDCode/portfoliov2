@@ -3,12 +3,10 @@
     width: 100%;
 
     .logo-container {
-        padding-top: calc(50vh - 35px);
-        padding-bottom: 18vh;
+        padding-top: calc(50vh - 25px);
+        padding-bottom: 15vh;
         padding-left: 15px;
         padding-right: 15px;
-
-
 
         .tagline {
             font-size: 16px;
@@ -21,10 +19,41 @@
 
     .continue {
         a {
-            display: block;
-            text-align: center;
             img {
-                height: 35px;
+                height: 25px;
+            }
+        }
+    }
+
+    @include respond-to(small) {
+        text-align: center;
+
+        .logo-container {
+            display: inline-block;
+            padding-top: calc(50vh - 45px);
+            padding-bottom: 7vh;
+        }
+
+    }
+
+    @include respond-to(medium) {
+        .logo-container {
+            padding-top: calc(50vh - 60px);
+            padding-bottom: 15vh;
+        }
+
+        .continue {
+            a {
+                img {
+                    height: 35px;
+                    transition: transform 150ms ease-in-out;
+                }
+
+                &:hover {
+                    img {
+                        transform: translateY(7px);
+                    }
+                }
             }
         }
     }

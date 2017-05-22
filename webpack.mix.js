@@ -11,3 +11,4 @@ mix.webpackConfig({
 });
 
 mix.copyDirectory('resources/assets/img', 'public/img');
+mix.copyDirectory('resources/assets/fonts', 'public/fonts');
